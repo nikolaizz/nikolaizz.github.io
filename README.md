@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-A modern, minimalist one-page portfolio website for Nikola Izzan Ar Rasheed, a Computer Engineering student from Universitas Brawijaya.
+My modern one-page portfolio website.
 
 ## Features
 
@@ -24,18 +24,6 @@ A modern, minimalist one-page portfolio website for Nikola Izzan Ar Rasheed, a C
 - `index.html` - The main HTML file
 - `styles.css` - All styling rules and responsive design
 - `script.js` - JavaScript for animations and interactivity
-
-## How to Use
-
-Simply open the `index.html` file in any modern web browser to view the website.
-
-## Customization
-
-To customize this website:
-
-1. Edit the HTML to change content and structure
-2. Modify the CSS variables in the `:root` selector to change colors and other design elements
-3. Adjust the JavaScript for different animations or interactions
 
 ## Contact
 
