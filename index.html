@@ -3,34 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikola Izzan | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Nikola Izzan Ar Rasheed - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <div class="parallax-container">
+        <div class="parallax-bg"></div>
+    </div>
+
     <header>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
-        </nav>
+        <div class="container">
+            <nav>
+                <div class="logo">NIR</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Nikola Izzan Ar Rasheed</h1>
-                <p class="tagline">Computer Engineering Student | AI & ML Enthusiast</p>
-                <a href="#contact" class="cta-button">Get In Touch</a>
+                <h1 class="animate-text">Nikola Izzan Ar Rasheed</h1>
+                <h2 class="animate-text-delay">Computer Engineering Student</h2>
+                <p class="animate-text-delay-2">Passionate about Artificial Intelligence and Machine Learning</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="cube-container">
+                    <div class="cube">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left"></div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -40,57 +68,162 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I'm a Computer Engineering student with a strong interest in Artificial Intelligence and Machine Learning. I'm passionate about using data and innovative algorithms to solve real-world problems. Always eager to learn and grow, I look forward to contributing to impactful projects in the field of intelligent systems.</p>
-                    <div class="skills">
-                        <h3>Skills</h3>
-                        <div class="skill-tags">
-                            <span>Python</span>
-                            <span>Machine Learning</span>
-                            <span>Data Analysis</span>
-                            <span>Team Collaboration</span>
-                            <span>Problem Solving</span>
-                        </div>
-                    </div>
+                    <p>A passionate Computer Engineering student at Brawijaya University with a strong interest in Artificial Intelligence and Machine Learning. Enthusiastic about leveraging data and innovative algorithms to solve real-world problems.</p>
+                    <p>I'm eager to contribute to cutting-edge projects and continuously expand my knowledge in the field of intelligent systems. Currently in my 6th semester and participating in the MBKM Independent Study Program: DBS Coding Camp 2025.</p>
                 </div>
-                <div class="education">
-                    <h3>Education</h3>
-                    <div class="education-item">
-                        <h4>Computer Engineering</h4>
-                        <p>Universitas Brawijaya</p>
+                <div class="about-image">
+                    <div class="floating-card">
+                        <div class="card-content">
+                            <div class="profile-image">
+                                <img src="https://media.licdn.com/dms/image/v2/D5603AQGXXYNLJ5SNdg/profile-displayphoto-shrink_800_800/B56ZURdSMdGUAc-/0/1739754644664?e=1752710400&v=beta&t=uSoosX2im_xxU4zeE-QxyVLju36F_eTF3fA7MK5cHtE" alt="Nikola Izzan Ar Rasheed">
+                            </div>
+                            <div class="card-text">
+                                <h3>Nikola Izzan Ar Rasheed</h3>
+                                <p>Computer Engineering Student</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="portfolio" class="portfolio">
+    <section id="education" class="education">
         <div class="container">
-            <h2 class="section-title">My Projects</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <div class="portfolio-content">
-                        <h3>CIFAR-10 Image Classification Project</h3>
-                        <p>Machine learning project for image classification using MobileNetV2</p>
-                        <a href="https://github.com/nikolaizz" class="project-link">View on GitHub</a>
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="education-content">
+                    <h3>Bachelor of Computer Engineering</h3>
+                    <h4>Brawijaya University - Malang, Indonesia</h4>
+                    <p class="education-period">August 2022 - June 2026 (Expected)</p>
+                    <p>GPA: 3.66/4.00</p>
+                    <p>Currently in 6th semester and participating in the MBKM Independent Study Program: DBS Coding Camp 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Machine Learning</li>
+                        <li>Data Analysis</li>
+                        <li>Artificial Intelligence</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Design Skills</h3>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Canva</li>
+                        <li>UI/UX Basics</li>
+                        <li>Visual Design</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-users"></i></div>
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Time Management</li>
+                        <li>Team Collaboration</li>
+                        <li>Critical Thinking</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Certifications</h3>
+                    <ul>
+                        <li>Python Programming (Dicoding)</li>
+                        <li>Fundamental AI (Dicoding)</li>
+                        <li>Data Analysis with Python (Dicoding)</li>
+                        <li>Machine Learning Development (Dicoding)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <h3>Film Reviews Sentiment Analysis</h3>
+                        <p>Developed a sentiment analysis project on over 30,000 movie reviews scraped from Letterboxd, using VADER for sentiment labeling and comparing Logistic Regression, LSTM, and BERT models with 85%+ accuracy.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>BERT</span>
+                            <span>Deep Learning</span>
+                        </div>
+                        <div class="project-date">April 2025 - Present</div>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-content">
-                        <h3>Data Analysis Project</h3>
-                        <p>Bike sharing data analysis project</p>
-                        <a href="https://github.com/nikolaizz" class="project-link">View on GitHub</a>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <h3>Fraud Detection on Bank Transaction</h3>
+                        <p>Developed a fraud detection system using DBSCAN clustering for anomaly detection on 2,500+ bank transactions, followed by supervised classification with Random Forest and KNN models.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>DBSCAN</span>
+                            <span>Machine Learning</span>
+                            <span>Fraud Detection</span>
+                        </div>
+                        <div class="project-date">March 2025 - Present</div>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-content">
-                        <h3>Sentiment Analysis Project</h3>
-                        <p>Film Review Sentiment Analysis using various machine learning models</p>
-                        <a href="https://github.com/nikolaizz" class="project-link">View on GitHub</a>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-info">
+                        <h3>SVM-Based Student Graduation Prediction</h3>
+                        <p>Developed a predictive system using SVM algorithm to classify student graduation potential based on academic factors, with PCA for feature optimization and dimensionality reduction.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>SVM</span>
+                            <span>PCA</span>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="project-date">Oct 2024 - Nov 2024</div>
                     </div>
                 </div>
             </div>
-            <div class="portfolio-cta">
-                <a href="https://github.com/nikolaizz" class="cta-button">See More on GitHub</a>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-card">
+                <div class="experience-icon"><i class="fas fa-briefcase"></i></div>
+                <div class="experience-content">
+                    <h3>Staff of Competition Management Division</h3>
+                    <h4>ROBOTIIK FILKOM UB - University of Brawijaya</h4>
+                    <p class="experience-period">April 2024 - December 2024</p>
+                    <ul>
+                        <li>Curated and disseminated information on robotics, IT, and related competitions to organization members</li>
+                        <li>Facilitated competition preparation by coordinating mentorship and resources for members</li>
+                        <li>Contributed to organizational development by serving on committees for over three major programs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="achievements">
+                <h3>Achievements</h3>
+                <div class="achievement-item">
+                    <i class="fas fa-trophy"></i>
+                    <p><strong>2nd Place Winner</strong> in the Business Plan Competition at Technoday UNNES 2024</p>
+                </div>
             </div>
         </div>
     </section>
@@ -102,40 +235,48 @@
                 <div class="contact-info">
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
-                        <a href="mailto:izzannikola@gmail.com">izzannikola@gmail.com</a>
+                        <p>izzannikola@student.ub.ac.id</p>
                     </div>
                     <div class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/nikolaizzan" target="_blank">linkedin.com/in/nikolaizzan</a>
+                        <i class="fas fa-phone"></i>
+                        <p>+6281284107980</p>
                     </div>
                     <div class="contact-item">
-                        <i class="fab fa-instagram"></i>
-                        <a href="https://www.instagram.com/nikola_izzan" target="_blank">@nikola_izzan</a>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Malang, Indonesia</p>
                     </div>
-                    <div class="contact-item">
-                        <i class="fab fa-github"></i>
-                        <a href="https://www.github.com/nikolaizz" target="_blank">github.com/nikolaizz</a>
+                    <div class="social-links">
+                        <a href="https://github.com/nikolaizz" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/nikolaizzan" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="cta-button">Send Message</button>
-                </form>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Nikola Izzan Ar Rasheed. All rights reserved.</p>
+            <p>© 2023 Nikola Izzan Ar Rasheed. All Rights Reserved.</p>
+            <a href="#home" class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
         </div>
     </footer>
 
