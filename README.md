@@ -1,34 +1,32 @@
-# Personal Portfolio Website
+# Nikola Izzan Ar Rasheed, portfolio
 
-My modern one-page portfolio website.
+A one-page portfolio built as an editorial research note: warm paper, a serif voice, mono metadata, and a single oxide accent.
 
-## Features
+## Structure
 
-- Responsive design for both desktop and mobile devices
-- Modern UI with light blue color scheme and white gradients
-- Smooth scroll animations
-- Mobile-friendly navigation
-- Sections for: intro, about, portfolio, and contact
-- Clean, minimalist aesthetic using Poppins font
+- `index.html` - page content and structure
+- `style.css` - layout, type, color, and responsive rules
+- `script.js` - mobile navigation toggle
+- `assets/fonts/` - self-hosted Newsreader, IBM Plex Sans, and IBM Plex Mono
+- `assets/favicon.svg` - typographic N mark
+- `Nikola_CV_EN (AI_ML).pdf` - CV linked from the contact section
 
-## Technologies Used
+## Details
 
-- HTML5
-- CSS3 (with modern features like CSS variables, flexbox, and grid)
-- JavaScript (ES6+)
-- Font Awesome for icons
-- Google Fonts
+- Static HTML, CSS, and JavaScript. No framework, no build step.
+- English copy, taken from the CV.
+- Fixed paper theme because the page is built around a printed-report identity.
+- Motion is limited to hover and focus states.
+- All links point to real destinations: email, phone, LinkedIn, GitHub, and the CV file.
 
-## File Structure
+## Run locally
 
-- `index.html` - The main HTML file
-- `styles.css` - All styling rules and responsive design
-- `script.js` - JavaScript for animations and interactivity
+```powershell
+python -m http.server 4173
+```
 
-## Contact
+Then open `http://localhost:4173`.
 
-Nikola Izzan Ar Rasheed
-- Email: izzannikola@gmail.com
-- LinkedIn: www.linkedin.com/in/nikolaizzan
-- Instagram: www.instagram.com/nikola_izzan
-- GitHub: www.github.com/nikolaizz 
+## Fonts
+
+Newsreader and IBM Plex are licensed under the SIL Open Font License. Files are self-hosted in `assets/fonts/`.
